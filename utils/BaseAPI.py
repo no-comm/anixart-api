@@ -8,7 +8,7 @@ class API:
         self.session.params = self.params
         self.session.headers = {
             'Host': 'api-s4.anixart.tv',
-            'user-agent': 'AnixartApp/8.2.3-24111318 (Android 13; SDK 33; arm64-v8a; Xiaomi 2109119DG; ru)',
+            'user-agent': 'AnixartApp/8.2.3-24111318',
             'sign': sign if sign else ''
         }
         self.base_url = base_url
